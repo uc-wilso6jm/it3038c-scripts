@@ -11,9 +11,3 @@ for i in newWord:
 
 print('Your word is ' + newWord) 
 print('There are ' + str(len(newWord)) + ' letters in your word, ' + str(vowels) + ' vowels in your word, and ' + str(consonants) + ' consonants in your word')
-
-
-
-#print('There are ' + str(len(newWord)) + ' letters in your word')
-#print('There are ' + str(vowels) + ' vowels in your word')
-#print('There are ' + str(consonants) + ' consonants in your word')
