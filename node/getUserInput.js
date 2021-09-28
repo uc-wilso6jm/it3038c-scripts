@@ -1,0 +1,1 @@
+ProcessingInstruction.stdout.write("Hello, what is your name")
