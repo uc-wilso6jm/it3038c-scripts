@@ -18,4 +18,4 @@ python project1.py
 ### Sources used for reference in creating my project:
 - [Stack Overflow - Defining Randomized Characters Function](https://stackoverflow.com/questions/2257441/random-string-generation-with-upper-case-letters-and-digits)
 - [Real Python - ASCII String Module Library](https://realpython.com/python-encodings-guide/)
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Markdown Cheatsheet (README.md file)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
