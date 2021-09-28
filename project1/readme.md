@@ -14,7 +14,7 @@ python project1.py
 ```
 
 Your final output should look like this
-![imgur](https://imgur.com/a/D6V24EO.jpg)
+![imgur](https://imgur.com/gallery/D6V24EO.jpg)
 
 
 
