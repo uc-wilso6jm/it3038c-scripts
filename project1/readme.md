@@ -14,7 +14,11 @@ python project1.py
 ```
 
 Your final output should look like this
-![imgur](https://imgur.com/gallery/D6V24EO.jpg)
+```powershell
+C:\Users\Jarod\Desktop> python project1.py
+How many characters would you like your password to be? 18
+Randomly Generated Password: vpdGi`Xj2LK1n'4487
+```
 
 
 
