@@ -13,6 +13,9 @@ cd C:\Users\<Name>\Desktop
 python project1.py
 ```
 
+Your final output should look like this
+![imgur](https://imgur.com/ndwQVmo)
+
 
 
 ### Sources used for reference in creating my project:
