@@ -16,5 +16,5 @@ python project1.py
 
 
 ### Sources used for reference in creating my project:
-- First item [Stack Overflow - Defining Randomized Characters Function](https://stackoverflow.com/questions/2257441/random-string-generation-with-upper-case-letters-and-digits)
-- Second item [Real Python - ASCII String Module Library](https://realpython.com/python-encodings-guide/)
+- [Stack Overflow - Defining Randomized Characters Function](https://stackoverflow.com/questions/2257441/random-string-generation-with-upper-case-letters-and-digits)
+- [Real Python - ASCII String Module Library](https://realpython.com/python-encodings-guide/)
