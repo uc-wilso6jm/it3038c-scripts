@@ -13,7 +13,7 @@ cd C:\Users\<Name>\Desktop
 python project1.py
 ```
 
-Your final output should look like this
+### 5. Your final output should look like this
 ```powershell
 C:\Users\Jarod\Desktop> python project1.py
 How many characters would you like your password to be? 18
