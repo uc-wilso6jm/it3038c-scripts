@@ -2,7 +2,7 @@
 
 ### This script is a simple but potentially very secure password generator. It asks the user to input a chosen number of charcters they want their password to be and generates a random string of uppercase, lowercase, numbers, and special characters for the number of characters the user specified.
 
----
+
 
 # Setup
 
