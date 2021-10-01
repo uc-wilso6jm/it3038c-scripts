@@ -3,10 +3,9 @@
 ### This script is a simple but potentially very secure password generator. It asks the user to input a chosen number of charcters they want their password to be and generates a random string of uppercase, lowercase, numbers, and special characters for the number of characters the user specified.
 
 
-
 # Setup
 
-### *Pyton must already be installed on your machine for this script to work. If you do not already have python installed, go to [https://www.python.org/downloads/] and download the latest version for your OS. Make sure you check the "Add to PATH" checkbox during installation.*
+### *__Python must already be installed on your machine for this script to work__. If you do not already have python installed, go to [https://www.python.org/downloads/] and download the latest version for your OS. Make sure you check the "Add to PATH" checkbox during installation.*
 
 ### *To check if you already have a version of python installed on your machine, open a powershell window and run this command*
 ```powershell
