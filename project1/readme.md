@@ -14,6 +14,8 @@ set-alias python <paste full python.exe location path here>
 ```
 ### *Running the python --verison command should work now, verifying that you have it installed and it is working correctly.*
 
+---
+
 ### 1. To run the script, start by going to my [repository homepage](https://github.com/uc-wilso6jm/it3038c-scripts) and downloading the ZIP folder.
 ### 2. Once the ZIP folder is downloaded, navigate through the directories until you get to my project1.py file (it3038c-scripts-main > project1 > project1.py) and extract the .py file to your desktop.
 ### 3. Open Powershell and cd to your Desktop directory
