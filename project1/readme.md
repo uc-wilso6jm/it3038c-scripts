@@ -44,7 +44,6 @@ Randomly Generated Password: vpdGi`Xj2LK1n'4487
 ### Feel free to use this script to generate a complex, secure password for any of your accounts! I would reccommend using a password manager such as [Dashlane](https://www.dashlane.com/) or [LastPass](https://www.lastpass.com/) because it would be very difficult and annoying to try and memorize say a 20 character password for your email when you need to log in and check it everyday.
 
 
-
 ### Sources used for reference in creating my project:
 - [Stack Overflow - Defining Randomized Characters Function](https://stackoverflow.com/questions/2257441/random-string-generation-with-upper-case-letters-and-digits)
 - [Real Python - ASCII String Module Library](https://realpython.com/python-encodings-guide/)
