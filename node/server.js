@@ -3,12 +3,13 @@ var fs = require("fs");
 var os = require("os");
 var ip = require('ip');
 
-var uptime_sec = os.uptime();
-var uptime_min = uptime_sec/60;
-var uptime_hour = uptime_min/60;
-var uptime_day = uptime_hour/24;
 
 function getUpTime() {
+    var uptime_sec = os.uptime();
+    var uptime_min = uptime_sec/60;
+    var uptime_hour = uptime_min/60;
+    var uptime_day = uptime_hour/24;
+
     uptime_sec = Math.floor(uptime_sec);
     uptime_min = Math.floor(uptime_min);
     uptime_hour = Math.floor(uptime_hour);
@@ -18,7 +19,25 @@ function getUpTime() {
     uptime_min = uptime_min%60;
     uptime_sec = uptime_sec%60;
 
-    return (uptime_day + " days " + uptime_hour + " hour(s) " + uptime_min + " minute(s) and " + uptime_sec + " second(s)");
+    serverTime = (uptime_day + " days, " + uptime_hour + " hours, " + uptime_min + " minutes and " + uptime_sec + " seconds");
+    return (serverTime);
+}
+
+function totalMem() {
+    totalMemory = os.totalmem();
+    totalMemoryMB = Math.floor(totalMemory/(1024*1024));
+    return (totalMemoryMB + " MB");
+}
+
+function freeMem() {
+    freeMemory = os.freemem();
+    freeMemoryMB = Math.floor(freeMemory/(1024*1024));
+    return (freeMemoryMB + " MB");
+}
+
+function numCPU() {
+    numberCPU = os.cpus().length;
+    return (numberCPU);
 }
 
 http.createServer(function(req, res){
@@ -41,9 +60,9 @@ http.createServer(function(req, res){
             <p>Hostname: ${myHostName}</p>
             <p>IP: ${ip.address()}</p>
             <p>Server Uptime: ${getUpTime()}</p>
-            <p>Total Memory: </p>
-            <p>Free Memory: </p>
-            <p>Number of CPUs: </p>            
+            <p>Total Memory: ${totalMem()}</p>
+            <p>Free Memory: ${freeMem()}</p>
+            <p>Number of CPUs: ${numCPU()}</p>            
           </body>
         </html>` 
         res.writeHead(200, {"Content-Type": "text/html"});
