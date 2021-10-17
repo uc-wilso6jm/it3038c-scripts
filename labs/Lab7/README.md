@@ -9,7 +9,7 @@ Once installed, start off by installing the PSWordCloud module
 ```powershell
 Install-Module PSWordCloud
 ```
-*--Optional but you can always run the update command to make sure you have the latest version.--
+*Optional but you can always run the update command to make sure you have the latest version.*
 ```powershell
 Update-Module PSWordCloud
 ```
