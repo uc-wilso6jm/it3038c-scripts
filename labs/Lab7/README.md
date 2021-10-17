@@ -9,3 +9,9 @@ Once installed, start off by installing the PSWordCloud module
 ```powershell
 Install-Module PSWordCloud
 ```
+*--Optional but you can always run the update command to make sure you have the latest version.--
+```powershell
+Update-Module PSWordCloud
+```
+Now to get started with your word clouds. I've provided a text file in my repository that has some test words you can use to see how the script runs before customizing it yourself.
+
