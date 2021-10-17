@@ -17,7 +17,7 @@ New-WordCloud -Path .\wordcloud.svg -Typeface Consolas -WordSizes @{
 # If text file is outside of current directory, write entire path to the file out
 # This creates a frequency based word cloud
 
-Get-Content .\words.txt | New-WordCloud -Path .\wordcloud2.svg -ImageSize 1080p -AllowRotation FlippedVertical
+Get-Content .\words.txt | New-WordCloud -Path .\wordcloud2.svg -ImageSize 1080p
 
 # Pulls words from your current clipboard
 # Also a frequency based word cloud
