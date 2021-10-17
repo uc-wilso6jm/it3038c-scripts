@@ -19,6 +19,7 @@ Open Powershell ISE and create a new .ps1 file. We first want to start by import
 Import-Module PSWordCloud
 ```
 Now we will want to define our words that will be used and define any parameters for the word cloud.
+**Note: The more words you use the longer it will take to process and create the word cloud.*
 ```powershell
 Import-Module PSWordCloud
 
@@ -31,8 +32,26 @@ New-WordCloud -Path .\wordcloud.svg -Typeface Consolas -WordSizes @{
     cloud = Get-Random -Maximum 12 -Minimum 1 
 }
 ```
-*Note: The path being defined as ".\wordcloud.svg" will save the file to whatever your current working directory is. I recommend changing to your desktop directory to make it easy to find.
+**Note: The path being defined as ".\wordcloud.svg" will save the file to whatever your current working directory is. I recommend changing to your desktop directory to make it easy to find*.
+Save your file to your desktop and in Powershell 7 cd into your desktop directory.
 
+Run the script by running
+```powershell
+.\<script-name.ps1>
+```
+Find your newly made .svg file on your desktop and open it to see the results (any web browser should work).
 
+You can also skip the tedious effort of manually defining all the words yourself by having it pull words from a text file and creating a frequency word cloud.
+Create a text file on your desktop and type in some words of your choice. Make sure to save your text file.
 
-I've provided a text file in my repository that has some test words you can use to see how the script runs before customizing it yourself.
+Go back to ISE and comment out your first function and add a new line.
+```powershell
+Get-Content .\words.txt | New-WordCloud -Path .\wordcloud2.svg -ImageSize 1080p
+```
+Again, find your .svg file and open it to see the results.
+
+Lastly, you can even have it use words that are currently in your clipboard to create a word cloud. Again, comment out the 2nd function and add a new line.
+Go to any website and copy some plain text before running the script.
+```powershell
+Get-Clipboard | New-WordCloud -Path .\wordcloud3.svg -Typeface Georgia -ImageSize 1080p
+```
