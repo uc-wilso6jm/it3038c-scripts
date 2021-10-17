@@ -22,4 +22,4 @@ Get-Content .\words.txt | New-WordCloud -Path .\wordcloud2.svg -ImageSize 1080p 
 # Pulls words from your current clipboard
 # Also a frequency based word cloud
 
-Get-Clipboard | New-WordCloud -Path .\wordcloud3.svg -Typeface Georgia -ImageSize 1000x1000
+Get-Clipboard | New-WordCloud -Path .\wordcloud3.svg -Typeface Georgia -ImageSize 1080p
