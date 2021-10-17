@@ -15,3 +15,4 @@ Update-Module PSWordCloud
 ```
 Now to get started with your word clouds. I've provided a text file in my repository that has some test words you can use to see how the script runs before customizing it yourself.
 
+Go ahead and download my entire repository and extract my lab 7 folder to your desktop. < IT3038c-scripts-main>labs>lab7 >
