@@ -19,7 +19,9 @@ Open Powershell ISE and create a new .ps1 file. We first want to start by import
 Import-Module PSWordCloud
 ```
 Now we will want to define our words that will be used and define any parameters for the word cloud.
+
 **Note: The more words you use the longer it will take to process and create the word cloud.*
+
 ```powershell
 Import-Module PSWordCloud
 
