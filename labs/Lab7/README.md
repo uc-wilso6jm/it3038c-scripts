@@ -66,3 +66,5 @@ Get-Content .\words.txt | New-WordCloud -Path .\wordcloud2.svg -ImageSize 1080p 
 Get-Content .\words.txt | New-WordCloud -Path .\wordcloud2.svg -ImageSize 1080p -AllowRotation AllUpright
 ```
 Examples of focused words and rotations can be found here https://github.com/vexx32/PSWordCloud/blob/main/Examples/Examples.md
+
+You can create a new script for each one of the different functions or follow as I did by just commenting out the other two that aren't going to be used. 
