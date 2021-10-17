@@ -57,3 +57,12 @@ Go to any website and copy some plain text before running the script.
 ```powershell
 Get-Clipboard | New-WordCloud -Path .\wordcloud3.svg -Typeface Georgia -ImageSize 1080p
 ```
+
+There are even more parameters you can use when creating your word cloud such as choosing a specific word to be focused or different types of rotation for the words. Those can be accomplished by defining the parameter in the function.
+```powershell
+Get-Content .\words.txt | New-WordCloud -Path .\wordcloud2.svg -ImageSize 1080p -FocusWord <word of choice>
+```
+```powershell
+Get-Content .\words.txt | New-WordCloud -Path .\wordcloud2.svg -ImageSize 1080p -AllowRotation AllUpright
+```
+Examples of focused words and rotations can be found here https://github.com/vexx32/PSWordCloud/blob/main/Examples/Examples.md
