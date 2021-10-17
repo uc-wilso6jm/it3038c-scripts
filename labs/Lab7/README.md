@@ -35,7 +35,7 @@ New-WordCloud -Path .\wordcloud.svg -Typeface Consolas -WordSizes @{
 }
 ```
 **Note: The path being defined as ".\wordcloud.svg" will save the file to whatever your current working directory is. I recommend changing to your desktop directory to make it easy to find*.
-Save your file to your desktop and in Powershell 7 cd into your desktop directory.
+Save your script to your desktop and in Powershell 7 cd into your desktop directory.
 
 Run the script by running
 ```powershell
