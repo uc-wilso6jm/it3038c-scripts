@@ -1,3 +1,1 @@
-# This is where my labs will go
-
-Once I fully understand how all this github stuff works...
+# Labs
