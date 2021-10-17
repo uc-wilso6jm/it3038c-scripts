@@ -18,8 +18,10 @@ Open Powershell ISE and create a new .ps1 file. We first want to start by import
 ```powershell
 Import-Module PSWordCloud
 ```
-Now we will want to define our words that will be used and define any parameters for the word cloud
+Now we will want to define our words that will be used and define any parameters for the word cloud.
 ```powershell
+Import-Module PSWordCloud
+
 New-WordCloud -Path .\wordcloud.svg -Typeface Consolas -WordSizes @{
     cyber = Get-Random -Maximum 10 -Minimum 1 
     networking = Get-Random -Maximum 15 -Minimum 1 
