@@ -1,13 +1,23 @@
 import string
 import random
+pwSize = 0
+
+pwSize=int(input('How many characters would you like your password to be? '))
 
 def pwGen():
-    pwSize=int(input('How many characters would you like your password to be? ')) # Variable pwSize stores the input as an int for the number of chars wanted for the password
-    if pwSize == int:
-        newPass = ''.join(random.SystemRandom().choice(string.ascii_letters + string.digits + string.punctuation) for _ in range(pwSize)) # Variable newPass then takes the stored input and randomizes a string of uppercase, lowercase, numbers, and special characters for int amount of characters input before
-        print('Randomly Generated Password: ' + newPass) # Print new randomized string
-    else:
-        print(pwSize + ' is not a valid number of characters. Please enter only integers.')
-        return
+    newPass = ''.join(random.SystemRandom().choice(string.ascii_letters + string.digits + string.punctuation) for _ in range(pwSize)) # Variable newPass then takes the stored input and randomizes a string of uppercase, lowercase, numbers, and special characters for int amount of characters input before
+    genPW = ('Randomly Generated Password: ' + newPass) # Print new randomized string
+    return genPW
 
-pwGen()
+while pwSize < 8:
+    print('Not enough characters for a strong password. Please enter at least 8 characters.')
+    pwSize=int(input('How many characters would you like your password to be? '))
+else:
+    print(pwGen())
+
+
+    
+    
+
+        
+    
