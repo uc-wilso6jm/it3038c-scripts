@@ -14,10 +14,3 @@ while pwSize < 8:
     pwSize=int(input('How many characters would you like your password to be? '))
 else:
     print(pwGen())
-
-
-    
-    
-
-        
-    
