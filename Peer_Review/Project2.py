@@ -8,7 +8,7 @@ import time
 import random
 
 # Open the text file storing the words to be randomly picked.
-my_file = open("C:\it3038c-scripts\Peer_Review\wordlist.txt","r")
+my_file = open("wordlist.txt","r")
 options = my_file.readlines()
 done = "n"
 
