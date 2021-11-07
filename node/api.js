@@ -9,6 +9,22 @@ function listBlue(res) {
     res.end(JSON.stringify(colorBlue)); 
 } 
 
+function listGreen(res) { 
+    var colorGreen = data.filter(function(item) { 
+        return item.color === "green"; 
+    }); 
+
+    res.end(JSON.stringify(colorGreen)); 
+} 
+
+function listBlack(res) { 
+    var colorBlack = data.filter(function(item) { 
+        return item.color === "black"; 
+    }); 
+
+    res.end(JSON.stringify(colorBlack)); 
+} 
+
 var server = http.createServer(function(req, res){ 
     if (req.url === "/") { 
         res.writeHead(200, {"Content-Type": "text/json"}); 
