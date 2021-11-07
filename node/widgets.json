@@ -1,18 +1,18 @@
 [ 
   {
-    "name":"widget1",
-    "color":"blue"
+    "name":"Widget1",
+    "color":"Blue"
   },
   {
-    "name":"widget2",
-    "color":"green"
+    "name":"Widget2",
+    "color":"Green"
   },
   {
-    "name":"widget3",
-    "color":"black"
+    "name":"Widget3",
+    "color":"Black"
   },
   {
-    "name":"widgetX",
-    "color":"blue"
+    "name":"WidgetX",
+    "color":"Blue"
   }
 ]
