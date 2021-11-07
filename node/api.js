@@ -33,6 +33,12 @@ var server = http.createServer(function(req, res){
 else if (req.url === "/blue") {
     listBlue(res);
 }
+else if (req.url === "/green") {
+    listGreen(res);
+}
+else if (req.url === "/black") {
+    listBlack(res);
+}
 else { 
         res.writeHead(404, {"Content-Type": "text/plain"});       
         res.end("Data not found");         
