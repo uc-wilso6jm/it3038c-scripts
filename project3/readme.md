@@ -1,1 +1,1 @@
-# Project 2 - Password Generator - Final Update
+# Project 3 - Password Generator - Final Update
