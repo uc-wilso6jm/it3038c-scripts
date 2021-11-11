@@ -1,6 +1,18 @@
 var http = require("http"); 
 var fs = require("fs");
 
+function showChars() {
+    var htmlForm = document.forms[0].elements;
+    var data = "";
+
+    for (var i=0, j = htmlForm.length;i < j;i++)
+    {
+        if(form[i].type="text") {
+            data += (htmlForm[i].value)
+        }
+    }
+}
+
 http.createServer(function(req, res){
 
     if (req.url === "/") {
@@ -10,18 +22,10 @@ http.createServer(function(req, res){
     });
 }
     else if(req.url.match("/pwgen")) {
-        html=`    
-        <!DOCTYPE html>
-        <html>
-          <head>
-            <title>Project 3 - Password Generator</title>
-          </head>
-          <body>
-                      
-          </body>
-        </html>` 
-        res.writeHead(200, {"Content-Type": "text/html"});
-        res.end(html);
+        fs.readFile("pwgen.html", "UTF-8", function(err, body){
+            res.writeHead(200, {"Content-Type": "text/html"});
+            res.end(body);
+        });
     }
     else {
         res.writeHead(404, {"Content-Type": "text/plain"});
