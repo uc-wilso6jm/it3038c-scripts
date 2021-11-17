@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-    <html>
-        <head>
-            <title>Project 3 - Password Generator</title>
-        </head>
-        
-        <body>
-            <h1>Welcome to my password generator!
-                <h2><a href='/pwgen'>Click here to begin</a></h2>
-            </h1>
-        </body>
-    </html>
+{% extends "layout.html" %}
+
+{% block content %}
+
+<p><em>What is your name?</em>
+
+ <form action="/welcome" method="POST">
+     <input name="myName">
+     <input type="submit" value="Submit">
+ </form>
+
+</p>
+
+{% endblock %}
