@@ -2,6 +2,17 @@
 
 {% block content %}
 
-<p><em>Hello, {{ myName }}</em></p>
+<p>The password size you chose is: <b>{{ pwSize }} characters</b>. Click "Generate Password" below to receive your randomly generated password.</p>
+
+<form method="POST" action="/genPW" name="genPW">
+    <button type="submit">Generate Password</button>
+</form>
+
+<br />
+
+<p>If you wish to choose a different number, click here to go back to the home page.</p>
+<form action="/" name="home">
+    <button type="submit">Home Page</button>
+</form>
 
 {% endblock %}

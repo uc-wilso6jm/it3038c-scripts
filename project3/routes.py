@@ -1,4 +1,7 @@
 from flask import Flask, render_template, request
+import string
+import random
+numChars = 0
 
 app = Flask(__name__)
 app.config.from_object(__name__)
@@ -7,7 +10,14 @@ app.config.from_object(__name__)
 def hello():
     return render_template("index.html")
 
-@app.route('/welcome', methods=['POST'])
-def welcome():
-    newName = request.form['myName'] + " is amazing"
-    return render_template("welcome.html", myName = newName)
+@app.route('/pwgen', methods=['POST'])
+def pwGen():
+    numChars = request.form['pwSize']
+    return render_template("pwgen.html", pwSize = numChars)
+
+newPass = numChars
+
+@app.route('/genPW', methods=['POST'])
+def genPW():
+    newPass = ''.join(random.SystemRandom().choice(string.ascii_letters + string.digits + string.punctuation) for _ in range(numChars))
+    return render_template("genPW.html", pwSize = newPass)

@@ -2,11 +2,11 @@
 
 {% block content %}
 
-<p><em>What is your name?</em>
+<p>Welcome to my password generator! Please enter the number of charcters long you want your password to be.
 
- <form action="/welcome" method="POST">
-     <input name="myName">
-     <input type="submit" value="Submit">
+ <form action="/pwgen" method="POST">
+    <input type="number" id="quantity" name="pwSize" min="8">
+    <input type="submit">
  </form>
 
 </p>
