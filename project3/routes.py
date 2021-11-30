@@ -15,9 +15,7 @@ def pwGen():
     numChars = request.form['pwSize']
     return render_template("pwgen.html", pwSize = numChars)
 
-newPass = numChars
-
 @app.route('/genPW', methods=['POST'])
 def genPW():
-    newPass = ''.join(random.SystemRandom().choice(string.ascii_letters + string.digits + string.punctuation) for _ in range(numChars))
-    return render_template("genPW.html", pwSize = newPass)
+    passwd = ''.join(random.SystemRandom().choice(string.ascii_letters + string.digits + string.punctuation) for _ in range(numChars))
+    return render_template("genPW.html", numChars = passwd)
