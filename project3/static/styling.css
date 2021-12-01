@@ -1,10 +1,75 @@
 html {
-    background-color: orange;
+    background-color:navajowhite;
+    text-align: center;
+    padding: 70px 0;
 }
+h2 {
+    color: rgb(70, 70, 70);
+    text-align: center;
+    padding: 10px 0;
+}
+
 p {
-    color:chartreuse;
+    color: navajowhite;
+}
+
+.generate {
+    width: 100px;
+    height: 35px;
+    font-size: 14pt;
 }
 
 h1 {
-    color:aqua;
+    color:maroon;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 12pt;
+}
+
+.copyButton {
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 12pt;
+}
+
+.copyButton:hover {
+    background-color: rgb(200,200,200);
+}
+
+.button:hover {
+    background-color: rgb(200,200,200);
+}
+
+a:link {
+    color:maroon;
+    text-decoration: none;
+}
+
+a:visited {
+    color:maroon;
+}
+
+a:hover {
+    text-decoration: underline;
 }

@@ -2,6 +2,24 @@
 
 {% block content %}
 
-<p>Randomly generated password: {{ passwd }}</p>
+<h2>Randomly generated password:</h2>
+<br>
+
+<script>
+    function CopyToClipboard(id)
+    {
+    var r = document.createRange();
+    r.selectNode(document.getElementById(id));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(r);
+    document.execCommand('copy');
+    window.getSelection().removeAllRanges();
+    }
+</script>
+
+<h2 id="newPW">{{ passwd }}</h2>
+<form a href="#" onclick="CopyToClipboard('newPW');return false;">
+    <button class="copyButton" type="submit">Copy to Clipboard</button>
+</form>
 
 {% endblock %}
