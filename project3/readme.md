@@ -35,7 +35,7 @@ cd C:\Users\<Name>\Desktop
 python web.py
 ```
 ### 5. In a web browser, naviagte to localhost:5000 and you should be greeted with the home page of the web server.
-![Imgur](https://imgur.com/a/02CLLox.jpg)
+![Imgur](https://i.imgur.com/02CLLox.jpg)
 
 
 ---
@@ -48,9 +48,6 @@ python web.py
 - [Real Python - ASCII String Module Library](https://realpython.com/python-encodings-guide/)
 - [Markdown Cheatsheet (README.md file)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [While loops](https://www.w3schools.com/python/python_while_loops.asp)
-References
-https://stackoverflow.com/questions/23450534/how-to-call-a-python-function-from-node-js
-https://stackoverflow.com/questions/23450534/how-to-call-a-python-function-from-node-js
-https://stackoverflow.com/questions/27385005/display-user-input-for-form
-https://www.w3schools.com/tags/att_input_type_number.asp
-https://flask.palletsprojects.com/en/2.0.x/quickstart/#
+- [HTML Form](https://stackoverflow.com/questions/27385005/display-user-input-for-form)
+- [HTML Input](https://www.w3schools.com/tags/att_input_type_number.asp)
+- [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/quickstart/#)
