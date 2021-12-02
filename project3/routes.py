@@ -12,5 +12,8 @@ def hello():
 @app.route('/genPW', methods=['POST']) #route for generated password page after submitting the form
 def genPW():
     numChars = int(request.form['pwSize'])
-    passwd = ''.join(random.SystemRandom().choice(string.ascii_letters + string.digits + string.punctuation) for _ in range(numChars)) #randomizes a string of numbers, letters, and special characters for the amount of characters in pwSize
+
+    #randomizes a string of uppercase and lowercase letters, numbers, and special characters for the amount of characters specified in pwSize
+    passwd = ''.join(random.SystemRandom().choice(string.ascii_letters + string.digits + string.punctuation) for _ in range(numChars))
+
     return render_template("genPW.html", passwd = passwd)
