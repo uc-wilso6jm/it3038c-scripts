@@ -26,11 +26,11 @@ set-alias python <paste full python.exe location path here>
 ```powershell
 pip install flask
 ```
-### 4. In Powershell, cd to the directory where the project3 folder is.
+### 4. Once that's done, cd to the directory where the project3 folder is.
 ```powershell
 cd C:\Users\<Name>\Desktop\project3
 ```
-### 5. Now that you are in the correct directory that the project3 folder is located, you can just run the web server by typing
+### 5. Now that you are in the correct directory, you can just run the web server by typing
 ```powershell
 python web.py
 ```
