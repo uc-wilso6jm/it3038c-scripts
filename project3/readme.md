@@ -26,27 +26,29 @@ set-alias python <paste full python.exe location path here>
 ```powershell
 pip install flask
 ```
-### 3. In Powershell, cd to your Desktop directory
+### 4. In Powershell, cd to your Desktop directory
 ```powershell
 cd C:\Users\<Name>\Desktop
 ```
-### 4. Now that you are in the correct directory that the project3 folder is located, you can just run the web server by typing
+### 5. Now that you are in the correct directory that the project3 folder is located, you can just run the web server by typing
 ```powershell
 python web.py
 ```
-### 5. In a web browser, naviagte to localhost:5000 and you should be greeted with the home page of the web server.
+### 6. In a web browser, naviagte to localhost:5000 and you should be greeted with the home page of the web server.
 ![pwgen](/project3/images/pwgen.jpg)
-
+### 7. Enter the number of characters you want your new password to be and click Generate.
+### 8. Your newly generated password will be shown on the web page and even has a button to click to automatically copy it to your clipboard.
 
 ---
 
-### Feel free to use this script to generate a complex, secure password for any of your accounts! I would recommend using a password manager such as [Dashlane](https://www.dashlane.com/) or [LastPass](https://www.lastpass.com/) because it would be very difficult and annoying to try and memorize a 20 character password for your email when you need to log in and check it everyday.
+### Feel free to use this script to generate a complex, secure password for any of your accounts! I would recommend using a password manager such as [Dashlane](https://www.dashlane.com/) or [LastPass](https://www.lastpass.com/) because it would be very annoying to try and memorize a 20 character password for your email when you need to log in and check it everyday.
 
 
 ### Sources used for reference in creating my project:
 - [Stack Overflow - Defining Randomized Characters Function](https://stackoverflow.com/questions/2257441/random-string-generation-with-upper-case-letters-and-digits)
 - [Real Python - ASCII String Module Library](https://realpython.com/python-encodings-guide/)
-- [Markdown Cheatsheet (README.md file)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Markdown Cheatsheet 2](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [While loops](https://www.w3schools.com/python/python_while_loops.asp)
 - [HTML Form](https://stackoverflow.com/questions/27385005/display-user-input-for-form)
 - [HTML Input](https://www.w3schools.com/tags/att_input_type_number.asp)
