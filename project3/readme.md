@@ -26,9 +26,9 @@ set-alias python <paste full python.exe location path here>
 ```powershell
 pip install flask
 ```
-### 4. In Powershell, cd to your Desktop directory
+### 4. In Powershell, cd to the directory where the project3 folder is.
 ```powershell
-cd C:\Users\<Name>\Desktop
+cd C:\Users\<Name>\Desktop\project3
 ```
 ### 5. Now that you are in the correct directory that the project3 folder is located, you can just run the web server by typing
 ```powershell
@@ -38,6 +38,7 @@ python web.py
 ![pwgen](/project3/images/pwgen.jpg)
 ### 7. Enter the number of characters you want your new password to be and click Generate.
 ### 8. Your newly generated password will be shown on the web page and even has a button to click to automatically copy it to your clipboard.
+### 9. The title of the web page is also hyperlinked to go back to the home page so if you wish to generate a different password just click on "Password Generator" at the top!
 
 ---
 
