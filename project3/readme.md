@@ -35,7 +35,7 @@ cd C:\Users\<Name>\Desktop
 python web.py
 ```
 ### 5. In a web browser, naviagte to localhost:5000 and you should be greeted with the home page of the web server.
-![Imgur](https://imgur.com/gallery/02CLLox)
+![Imgur](https://imgur.com/a/02CLLox.jpg)
 
 
 ---
